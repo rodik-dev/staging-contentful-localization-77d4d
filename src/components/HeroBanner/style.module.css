@@ -1,0 +1,43 @@
+.hero {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    height: 40vh;
+    min-height: 300px;
+    width: 100%;
+}
+
+.hero__title {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.hero__subtitle {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.White {
+    color: #f3f4f6;
+}
+
+.Black {
+    color: #02001d;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 30vh;
+        min-height: 200px;
+    }
+
+    .hero__title {
+        font-size: 3rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1.25rem;
+    }
+}
