@@ -1,0 +1,37 @@
+{
+    "model": "Card",
+    "srcType": "contentful",
+    "srcProjectId": "xru4gt8adoi9",
+    "presets": [
+        {
+            "label": "testref",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Presets"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Stackbit",
+                "subtitle": "Make your React site visually editable",
+                "image": {
+                    "$$ref": "4e3HPpidMMbv0Yy8Aa3g67",
+                    "$$type": "__image_model"
+                },
+                "text": "Stackbit is an open developer platform that turns React sites into something that looks and feels like Squarespace.",
+                "actions": [
+                    {
+                        "$$ref": "4Oz0mmvyzOYDmimhROPN6T",
+                        "$$type": "Button"
+                    }
+                ],
+                "testref": {
+                    "$$ref": "4gEbRkIX60undNucPo0rGO",
+                    "$$type": "Button"
+                }
+            },
+            "thumbnail": "images/card-testref-3eea.png"
+        }
+    ]
+}
