@@ -122,7 +122,19 @@ export default {
             fields: [localeFieldOverride]
         },
         MarkdownSection: {
-            fields: [localeFieldOverride]
+            fields: [localeFieldOverride,
+                {
+                    name: 'contentfulNativeRichtext',
+                    type: 'richText',
+                    controlType: 'custom-inline-html',
+                    controlFilePath: 'custom-controls/custom-richtext.html'
+                },
+                {
+                    name: 'joditCustomRichtext',
+                    type: 'string',
+                    controlType: 'custom-modal-html',
+                    controlFilePath: 'custom-controls/custom-jodit.html'
+                }]
         },
         CtaSection: {
             fields: [localeFieldOverride]
