@@ -113,7 +113,35 @@ export default {
             fields: [localeFieldOverride]
         },
         HeroBanner: {
-            fields: [localeFieldOverride]
+            fields: [localeFieldOverride,
+                {
+                    name: 'enumPalette',
+                    group: 'enums',
+                    controlType: 'palette',
+                    options: [
+                        {
+                            label: 'Option 1',
+                            value: 'option-1',
+                            textColor: '#FFFFFF',
+                            backgroundColor: '#000000'
+                        },
+                        {
+                            label: 'Option 2',
+                            value: 'option-2',
+                            textColor: '#000000',
+                            backgroundColor: '#FFFF00',
+                            borderColor: '#000000'
+                        },
+                        {
+                            label: 'Option 3',
+                            value: 'option-3',
+                            textColor: '#FF0000',
+                            backgroundColor: '#FFFFFF',
+                            borderColor: '#FF0000'
+                        }
+                    ]
+                },
+            ]
         },
         CardsSection: {
             fields: [localeFieldOverride]
